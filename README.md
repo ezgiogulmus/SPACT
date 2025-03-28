@@ -20,7 +20,7 @@ cd SPACT
 Create a Conda environment and install the required packages:
 
 ```bash
-conda env create -n spact python=3.10 -y
+conda create -n spact python=3.10 -y
 conda activate spact
 pip install --upgrade pip 
 pip install -e .
